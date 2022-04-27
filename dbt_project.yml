@@ -36,3 +36,8 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+
+vars: 
+  customer: tmp_testing_copy
+  base_table: customers
+  table_1: invoices
