@@ -2,7 +2,7 @@
 version: 2
 
 models:
-  - name: File_Overview_RowCount
+  - name: file_overview
     description: "Gets the # of rows per file"
     columns:
       - name: File Name

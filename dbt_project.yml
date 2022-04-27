@@ -38,6 +38,11 @@ models:
       +materialized: view
 
 vars: 
+
   customer: tmp_testing_copy
   base_table: customers
   table_1: invoices
+  base_table_id: CustomerId
+  table_1_id: CustomerId
+  base_table_term: CustomerId #If Term variable does not exist, fill with customerID
+  table_1_term: InvoiceDate #If Term variable does not exist, fill with customerID
