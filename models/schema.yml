@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: File_Overview_RowCount
+    description: "Gets the # of rows per file"
+    columns:
+      - name: File Name
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
