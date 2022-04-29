@@ -10,3 +10,6 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: events_query
+    description: "Creates an events query"
